@@ -1,0 +1,113 @@
+---
+title: "Homework 5"
+author: "Junyeong"
+date: "7/19/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Problem Set
+## Q1 (5/5 points)
+
+For this assignment, we will be using `leukemia_simulatedData.csv`, which is an
+*entirely made-up data set*. Names, dates, and numbers were randomly generated,
+and we're pretending that they're PHI for educational purposes.
+
+`leukemia_simulatedData.csv` contains personal, clinical, and other details on
+patients diagnosed and treated for certain leukemias. Starting with the "Dx" (diagnosis)
+column, what two diseases are represented in the data set? (*Hint*: don't just type
+the codes from the data set)
+
+*Type your answer below:*
+leukemia_simulatedData = read.csv("~/Week 5/Week5_data/leukemia_simulatedData.csv")
+colnames((leukemia_simulatedData))
+##Diseases are Chronic myelomonocytic leukemia and Acute myeloblastic leukemia
+
+
+## Q2 (9/10 points)
+
+Our goal for this analysis will be to determine whether demographic, clinical,
+or genomic factors correlate with response or non-response to therapy. 
+Looks like there's quite a bit of PHI and other unnecessary data.
+
+Using R, remove columns containing unnecessary data & PHI from this data set,
+and save as a new data frame. *Hint:* We do want to include Age in this analysis, 
+but birthdays are too specific.
+
+```{r}
+colnames((leukemia_simulatedData))
+leukemia_simulatedData <- leukemia_simulatedData [,-c (1,2,3,17,19,20,21)]
+leukemia_simulatedData$Birth_Date = as.Date(leukemia_simulatedData$Birth_Date, format = "%m/%d/%Y")
+head(leukemia_simulatedData$Birth_Date)
+surveyDate = as.Date("1/1/2020", format = "%m/%d/%Y")
+
+
+leukemia_simulatedData$Age = as.numeric(difftime(surveyDate, leukemia_simulatedData$Birth_Date , units= "days")/365)
+leukemia_simulatedData$Age = round(leukemia_simulatedData$Age)
+head(leukemia_simulatedData$Age)
+head(leukemia_simulatedData)
+
+leukemia_simulatedData = leukemia_simulatedData [ ,-1]
+head(leukemia_simulatedData)
+
+# (-1) All specific dates are potentially identifying, we should remove.
+
+```
+
+
+## Q3 (7/10  points)
+
+A few of the columns are not consistent, and have multiple values corresponding
+to the same thing (Treatment, for example: aza=azacitidine, DAC=decitabine).
+table() may help you identify these columns (*Hint:* There are 3 columns that
+need cleaning for consistency).
+
+Starting with your result from Q2, clean the data so that columns contain 
+consistent values. Also, ensure that columns containing numeric data (like lab 
+measurements) are the correct class.
+
+Using write.csv(), save your deidentified & clean table as "leukemia_YourName.csv", 
+and submit it along with this Rmd file.
+
+
+```{r}
+str(leukemia_simulatedData)
+View(leukemia_simulatedData)
+
+leukemia_simulatedData$Treatment[leukemia_simulatedData$Treatment == "aza"] = "azacitidine"
+leukemia_simulatedData$Treatment[leukemia_simulatedData$Treatment == "DAC"] = "decitabine"
+
+
+leukemia_simulatedData$TP53.Mutation[leukemia_simulatedData$TP53.Mutation == "yes"] = "1"
+leukemia_simulatedData$TP53.Mutation[leukemia_simulatedData$TP53.Mutation == "no"] = "0"
+
+leukemia_simulatedData$ASXL1.Mutation [leukemia_simulatedData$ASXL1.Mutation == "no"] = "0"
+leukemia_simulatedData$ASXL1.Mutation [leukemia_simulatedData$ASXL1.Mutation == "yes"] = "1"
+
+# (-2) Platelets & WBCs are character, need to be converted to numeric.
+# (-1) Need to save resulting table using write.csv()
+
+
+```
+
+
+## Bonus (3 points)
+
+Using a loop, program a "guessing game" in R.
+  - Game should generate a random integer from 1 to 100 for the answer, but 
+    don’t tell the user (the sample() function could help).
+  - Ask the user for a guess (use readline()), then say if correct, or if the guess is too high or too low.
+  - Continue asking for guesses until correct.  Then tell the user how many guesses it took.
+  - Start by using an R script. Use the ‘Source’ button to test your game.
+
+```{r}
+
+# When you're satisfied with your code, copy it here.
+
+
+```
+

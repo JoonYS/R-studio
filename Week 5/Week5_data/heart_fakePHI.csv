@@ -1,0 +1,304 @@
+MRN,name,birthDate,sex,chest_pain,rest_bp,chol,fbs,rest_ecg,max_hr,exang,old_peak,slope,ca,SCN5A Mutation,SCN5A Specific,thal,disease,Insurance,Insurance_Co,Insurance_ID
+1011325,Ed Scott,9/25/1973,Male,asymptomatic,125,300,0,left ventricular hypertrophy ,171,0,0,1,2,1,939T>G,reversable,1,1,Cigna,47216271
+1032706,Maureen Lynch,8/8/1973,Female,asymptomatic,132,341,1,left ventricular hypertrophy ,136,1,3,2,0,0,,reversable,1,1,Aetna,43101085
+1088093,Bryan Brooks,3/27/1971,Male,asymptomatic,132,184,0,left ventricular hypertrophy ,105,1,2.1,2,1,0,,fixed,1,1,BCBS,22700668
+1190671,Roger Bowman,9/21/1979,Male,nontypical,160,246,0,normal,120,1,0,2,3,0,,fixed,1,1,Anthem,47042483
+1217536,Wm Fisher,5/21/1974,Male,NT,140,221,0,normal,164,1,0,1,0,1,564T>G,normal,0,1,Cigna,60959600
+1242733,Allen Newman,2/26/1971,Male,asymptomatic,125,304,0,left ventricular hypertrophy ,162,1,0,1,3,1,863T>G,normal,1,1,Aetna,76740250
+1242740,Drew Steele,9/23/1979,Male,nonanginal,130,253,0,normal,179,0,0,1,0,1,340G>A,normal,0,0,,
+1247469,Roberta Christensen,3/5/1956,Female,nonanginal,122,213,0,normal,165,0,0.2,2,0,0,,normal,0,1,Cigna,86059460
+1360262,Pat Vaughn,8/26/1967,Female,asymptomatic,150,244,0,normal,154,1,1.4,2,0,0,,normal,1,1,Cigna,13049744
+1492647,Angelica Bates,11/23/1964,Female,asymptomatic,130,197,0,normal,131,0,0.6,2,0,1,655G>A,normal,0,1,Cigna,20091514
+1505739,Hilda Houston,3/13/1975,Female,nonanginal,130,256,0,left ventricular hypertrophy ,149,0,0.5,1,0,0,,normal,0,1,Cigna,68686277
+1553788,Max Ross,8/23/1953,Male,nonanginal,120,226,0,normal,169,0,0,1,0,0,,norm,0,1,Aetna,94362119
+1587638,Leah Bush,2/2/1965,Female,nontypical,not measured,not measured,1,left ventricular hypertrophy ,152,0,0,1,2,0,,normal,1,1,Aetna,89771647
+1622142,Jo Schultz,8/7/1954,Female,nonanginal,102,318,0,normal,160,0,0,1,1,1,225T>C,normal,0,1,Anthem,57403452
+1652687,Lindsay Fernandez,11/20/1957,Female,asymptomatic,138,243,0,left ventricular hypertrophy ,152,1,0,2,0,0,,normal,0,1,Aetna,41229891
+1680376,Bernard Perkins,1/2/1966,Male,asymptomatic,150,270,0,left ventricular hypertrophy ,111,1,0.8,1,0,0,,reversable,1,1,Aetna,54819339
+1687468,Todd Gonzalez,7/30/1968,Male,nonanginal,105,240,0,left ventricular hypertrophy ,154,1,0.6,2,0,1,473C>G,reversable,0,1,Aetna,43101085
+1714023,Gilbert Pope,4/10/1952,Male,asymptomatic,117,230,1,normal,160,1,1.4,1,2,0,,reversable,1,1,Anthem,73060647
+1749034,Henry Newman,4/4/1971,Male,asymptomatic,135,254,0,left ventricular hypertrophy ,127,0,2.8,2,1,1,682C>G,reversable,1,1,Cigna,96623293
+1763641,Clark Weber,12/3/1961,Male,nonanginal,160,269,0,normal,112,1,2.9,2,1,0,,reversable,1,1,Anthem,75850034
+1772177,Joy Lewis,4/18/1977,Female,asymptomatic,170,225,1,left ventricular hypertrophy ,146,1,2.8,2,2,0,,fixed,1,1,BCBS,98428347
+1775584,Sue Cross,3/4/1979,Female,asymptomatic,150,407,0,left ventricular hypertrophy ,154,0,4,2,3,0,,reversable,1,1,Anthem,45571305
+1797079,Mack Medina,5/3/1958,Male,nonanginal,112,250,0,normal,179,0,0,1,0,1,960C>G,normal,0,1,Anthem,45571305
+1808413,Shannon Holmes,5/23/1963,Female,nonanginal,160,360,0,left ventricular hypertrophy ,151,0,0.8,1,0,1,281C>A,normal,0,1,Cigna,74828504
+1813724,Larry Gomez,11/15/1953,Male,typical,134,234,0,normal,145,0,2.6,2,2,0,,normal,1,1,Aetna,19321695
+1818673,Sandra Cunningham,12/16/1950,Female,asymptomatic,120,354,0,normal,163,1,0.6,1,0,0,,normal,0,1,Aetna,69626626
+1873672,Fredrick Lindsey,5/10/1958,Male,asymptomatic,125,258,0,left ventricular hypertrophy ,141,1,2.8,2,1,1,143T>C,reversable,1,1,Anthem,57403452
+1900104,Shawn Burke,3/12/1951,Male,asymptomatic,112,290,0,left ventricular hypertrophy ,153,0,0,1,1,0,,normal,1,1,BCBS,61445796
+1918003,Mindy Malone,1/5/1966,Female,nontypical,132,342,0,normal,166,0,1.2,1,0,0,,normal,0,1,Aetna,19321695
+1926719,Robyn Jacobs,2/2/1973,Female,nonanginal,108,267,0,left ventricular hypertrophy ,167,0,0,1,0,0,,normal,0,1,BCBS,88416332
+1941063,Terence Collins,12/3/1971,Male,nontypical,130,262,0,normal,155,0,0,1,0,0,,normal,0,1,Anthem,20094955
+1941816,Ronald Gray,2/15/1961,Male,asymptomatic,170,326,0,left ventricular hypertrophy ,140,1,3.4,3,0,0,,reversable,1,1,Anthem,45571305
+1944143,Mae Chapman,10/26/1960,Female,asymptomatic,140,241,0,normal,123,1,0.2,2,0,0,,reversable,1,1,Cigna,86059460
+2043590,Darla Lopez,6/11/1977,Female,nontypical,112,160,0,normal,138,0,0,2,0,0,,normal,0,1,BCBS,69920918
+2069375,George Sullivan,1/26/1962,Male,nontypical,not measured,not measured,0,left ventricular hypertrophy ,103,0,1.4,2,1,0,,reversable,1,1,BCBS,37407489
+2086267,Joyce Ballard,9/8/1976,Female,asymptomatic,128,205,0,ST-T wave abnormality,130,1,2,2,1,1,682C>G,reversable,1,1,Anthem,45571305
+2102603,Gail Carpenter,9/27/1963,Female,asymptomatic,150,258,0,left ventricular hypertrophy ,157,0,2.6,2,2,0,,reversable,1,1,Cigna,60959600
+2107528,Edward May,11/10/1958,Male,asymptomatic,140,261,0,left ventricular hypertrophy ,186,1,0,1,0,0,,normal,0,1,Cigna,99706216
+2121871,Russell Barker,3/14/1975,Male,nontypical,134,201,0,normal,158,0,0.8,1,1,0,,normal,0,1,Anthem,37112136
+2258044,Van James,5/29/1954,Male,asymptomatic,142,309,0,left ventricular hypertrophy ,147,1,0,2,3,1,174C>G,reversible,1,1,BCBS,28822473
+2286782,Levi James,11/25/1953,Male,asymptmatic,140,177,0,normal,162,1,0,1,1,0,,reversable,1,1,Cigna,13049744
+2325618,Oliver Flores,1/17/1973,Male,nontypical,135,203,0,normal,132,0,0,2,0,1,328C>A,fixed,0,1,BCBS,81421742
+2331356,Arturo Wheeler,11/25/1974,Male,nonanginal,140,254,0,left ventricular hypertrophy ,146,0,2,2,3,0,,reversable,1,1,Aetna,95914372
+2340640,Maria Salazar,4/16/1977,Female,nonanginal,110,265,1,left ventricular hypertrophy ,130,0,0,1,1,1,939T>G,normal,0,1,Cigna,14591698
+2361536,Kayla Phillips,4/17/1977,Female,nonanginal,120,340,0,normal,172,0,0,1,0,0,,normal,0,1,Anthem,91247653
+2362461,Bobby Jenkins,7/27/1956,Male,asymptomatic,144,193,1,normal,141,0,3.4,2,2,1,939T>G,reversable,1,0,,
+2426437,Lawrence Webb,1/1/1952,Male,asymptomatic,115,260,0,left ventricular hypertrophy ,185,0,0,1,0,1,871T>A,normal,0,1,BCBS,22700668
+2431930,Tom Romero,6/10/1972,Male,typical,138,282,1,left ventricular hypertrophy ,174,0,1.4,2,1,0,,normal,1,1,Anthem,36678899
+2477259,Katie Harris,1/13/1972,Female,nonanginal,138,220,0,normal,152,0,0,2,0,0,,normal,0,1,Anthem,41641048
+2483990,Tim Romero,7/12/1976,Male,nonanginal,126,218,1,normal,134,0,2.2,2,1,0,,fixed,1,1,Anthem,70206094
+2529345,Lydia Mccoy,1/7/1969,Female,asymptomatic,not measured,not measured,1,left ventricular hypertrophy ,133,1,4,3,2,1,858T>C,reversable,1,1,Aetna,19321695
+2542476,Edmund Rowe,9/2/1964,Male,nonanginal,140,321,0,left ventricular hypertrophy ,182,0,0,1,0,0,,normal,0,1,BCBS,76181333
+2563274,Roy Blake,11/17/1978,Male,asymptomatic,110,239,0,left ventricular hypertrophy ,142,1,1.2,2,1,0,,reversable,1,1,Anthem,70206094
+2572855,Wilbert Hart,6/27/1952,Male,nontypical,120,295,0,normal,162,0,0,1,0,0,,normal,0,1,Anthem,45571305
+2613352,Wilson Fox,11/16/1972,Male,asymptomatic,114,318,0,ST-T wave abnormality,140,0,4.4,3,3,1,473C>G,fixed,1,0,,
+2645768,Horace Wong,7/28/1966,Male,nontypical,192,283,0,left ventricular hypertrophy ,195,0,0,1,1,1,242G>A,reversable,1,1,Aetna,41229891
+2659168,Andy Watkins,11/16/1979,Male,asymptomatic,123,282,0,normal,95,1,2,2,2,0,,reversable,1,1,Anthem,91176940
+2676175,Tracey Gibson,4/5/1952,Female,asymptomatic,178,228,1,normal,165,1,1,2,2,1,174C>G,reversable,1,1,Anthem,73060647
+2719415,Corey Bell,8/12/1967,Male,asymptomatic,110,211,0,normal,161,0,0,1,0,0,,rev,0,1,Anthem,36678899
+2804179,Adrian Barton,2/27/1961,Male,asymptomatic,165,289,1,left ventricular hypertrophy ,124,0,1,2,3,1,383C>T,reversable,1,1,Cigna,20091514
+2819966,Ted Terry,1/17/1976,Male,asymptomatic,135,234,0,normal,161,0,0.5,2,0,1,939T>G,reversable,0,1,Aetna,41229891
+2848875,Kim Sanders,7/15/1974,Male,asymptomatic,150,276,0,left ventricular hypertrophy ,112,1,0.6,2,1,1,863T>G,fixed,1,1,BCBS,35952493
+2864314,Amanda Chavez,7/7/1960,Female,nontypical,118,210,0,normal,192,0,0.7,1,0,1,887C>G,normal,0,1,BCBS,46946408
+2864363,Shane Stanley,12/6/1959,Male,typical,125,213,0,left ventricular hypertrophy ,125,1,1.4,1,1,0,,normal,0,1,Aetna,89771647
+2876927,Timothy Ortega,4/25/1965,Male,asymptomatic,110,167,0,left ventricular hypertrophy ,114,1,2,2,0,1,919G>A,reversable,1,1,Cigna,77555421
+2920321,Roger Ford,9/1/1950,Male,asymptomatic,160,286,0,left ventricular hypertrophy ,108,1,1.5,2,3,0,,normal,1,1,Cigna,47216271
+2927224,Jenny Hale,2/11/1950,Female,asymptomatic,145,307,0,left ventricular hypertrophy ,146,1,1,2,0,1,785C>A,reversable,1,1,Aetna,82353240
+2942513,Benjamin Craig,10/31/1955,Male,asymptomatic,130,206,0,left ventricular hypertrophy ,132,1,2.4,2,2,1,693G>C,reversable,1,1,BCBS,87269291
+2970200,Grace Wood,8/9/1958,Female,nonanginal,155,269,0,normal,148,0,0.8,1,0,1,735G>T,normal,0,1,BCBS,28822473
+2991173,Rickey Paul,10/1/1975,Male,NT,124,261,0,normal,141,0,0.3,1,0,0,,reversable,1,1,Aetna,14951150
+3003504,Forrest Duncan,6/22/1957,Male,nonanginal,140,235,0,left ventricular hypertrophy ,180,0,0,1,0,1,887C>G,normal,0,1,Aetna,14951150
+3016911,Luis Williamson,8/3/1974,Male,nonanginal,130,197,1,left ventricular hypertrophy ,152,0,1.2,3,0,0,,normal,0,1,BCBS,73963426
+3112731,Shawna Ramos,12/3/1979,Female,typical,150,283,1,left ventricular hypertrophy ,162,0,1,1,0,0,,normal,0,1,Anthem,42613902
+3119794,Eula Clarke,12/2/1976,Female,asymptomatic,106,223,0,normal,142,0,0.3,1,2,0,,normal,0,1,Aetna,47205269
+3185538,Colleen Logan,1/27/1967,Female,typical,150,226,0,normal,114,0,2.6,3,0,0,,normal,0,1,BCBS,34336502
+3227751,Nathan Roberson,10/20/1972,Male,asymptomatic,140,203,1,left ventricular hypertrophy ,155,1,3.1,3,0,0,,reversable,1,1,BCBS,69920918
+3266956,Elbert Blair,12/17/1955,Male,asymptomatic,115,303,0,normal,181,0,1.2,2,0,1,655G>A,normal,0,1,Aetna,76740250
+3269598,Rogelio Fox,5/25/1978,Male,typical,118,182,0,left ventricular hypertrophy ,174,0,0,1,0,0,,normal,0,1,Cigna,49776610
+3336688,Abraham Douglas,8/13/1967,Male,nonanginal,150,212,1,normal,157,0,1.6,1,0,0,,normal,0,1,Cigna,66046580
+3368216,Patrick Bowen,10/2/1960,Male,asymptomatic,130,322,0,left ventricular hypertrophy ,109,0,2.4,2,3,0,,normal,1,1,Aetna,48004498
+3405372,Rachael Brewer,6/9/1961,Female,nonanginal,120,178,1,normal,96,0,0,1,0,0,,norm,0,1,Cigna,99706216
+3442347,Gerard Murray,12/18/1955,Male,typical,145,233,1,left ventricular hypertrophy ,150,0,2.3,3,0,0,,fixed,0,1,Anthem,57403452
+3477584,Randolph Brewer,11/24/1957,Male,asymptomatic,140,311,0,normal,120,1,1.8,2,2,1,895T>C,reversable,1,1,BCBS,48767597
+3482937,Troy Mathis,8/22/1974,Male,asymptomatic,not measured,not measured,0,left ventricular hypertrophy ,130,1,3,2,2,1,143T>C,reversable,1,1,Cigna,74828504
+3569834,Guillermo Marshall,6/20/1966,Male,typical,not measured,not measured,0,left ventricular hypertrophy ,178,0,0.8,1,2,0,,normal,0,1,Cigna,13049744
+3580178,Alonzo Castillo,10/6/1958,Male,typical,110,211,0,left ventricular hypertrophy ,144,1,1.8,2,0,1,383C>T,normal,0,1,BCBS,22700668
+3596462,Bernard Pena,9/3/1959,Male,asymptomatic,146,218,0,normal,105,0,2,2,1,1,328C>A,reversable,1,1,Aetna,72835820
+3621938,Shannon Hodges,3/15/1970,Male,asymptomatic,125,212,0,normal,168,0,1,1,2,0,,reversable,1,1,Anthem,57403452
+3662075,Brian King,3/19/1956,Male,asymptomatic,110,248,0,left ventricular hypertrophy ,158,0,0.6,1,2,0,,fixed,1,1,Cigna,86059460
+3663330,Jerome Bradley,9/21/1972,Male,asymptomatic,120,237,0,normal,71,0,1,2,0,0,,normal,1,1,Anthem,80043428
+3682822,Mattie Taylor,10/7/1963,Female,nontypical,105,204,0,normal,172,0,0,1,0,1,143T>C,normal,0,1,Anthem,47042483
+3706541,Louis Walton,10/31/1957,Male,typical,152,298,1,normal,178,0,1.2,2,0,1,693G>C,reversbuble,0,1,Aetna,19321695
+3707348,Alfred Bush,7/6/1972,Male,asymptomatic,100,234,0,normal,156,0,0.1,1,1,1,374A>T,reversable,1,1,Cigna,86059460
+3709968,Nadine Thornton,11/24/1959,Female,asymptomatic,124,209,0,normal,163,0,0,1,0,0,,normal,0,1,Anthem,80043428
+3711242,Felipe Perez,4/13/1977,Male,asymptomatic,110,201,0,normal,126,1,1.5,2,0,0,,fixed,0,1,Aetna,54819339
+3715454,Rex Nguyen,6/2/1951,Male,asymptomatic,140,187,0,left ventricular hypertrophy ,144,1,4,1,2,0,,reversable,1,0,,
+3740488,Edmund Riley,12/2/1974,Male,nontypical,120,157,0,normal,182,0,0,1,0,1,919G>A,normal,0,0,,
+3870778,Ismael Hammond,12/15/1976,Male,nonanginal,138,175,0,normal,173,0,0,1,,0,,normal,0,0,,
+3917929,Dora Caldwell,5/17/1974,Female,asymptomatic,158,305,0,left ventricular hypertrophy ,161,0,0,1,0,0,,normal,1,1,Anthem,75850034
+3946789,Joel Wagner,1/18/1968,Male,typical,160,273,0,left ventricular hypertrophy ,125,0,0,1,0,0,,normal,1,1,Cigna,84650228
+3962378,Preston Soto,1/28/1963,Male,asymptomatic,128,263,0,normal,105,1,0.2,2,1,0,,reversable,0,1,BCBS,76181333
+4003759,Enrique Parsons,3/14/1969,Male,asymptomatic,125,254,1,normal,163,0,0.2,2,2,0,,reversable,1,1,Aetna,19321695
+4006422,Phillip Jenkins,5/27/1957,Male,NT,130,245,0,left ventricular hypertrophy ,180,0,0.2,2,0,0,,normal,0,1,Cigna,47216271
+4039674,Ronnie Parsons,6/19/1971,Male,nontypical,156,245,0,left ventricular hypertrophy ,143,0,0,1,0,1,682C>G,normal,0,1,BCBS,69920918
+4094123,Louise Manning,2/11/1950,Female,asymptomatic,130,305,0,normal,142,1,1.2,2,0,0,,reversable,1,1,Cigna,84650228
+4100160,Janie Thompson,3/31/1973,Female,asymptomatic,100,248,0,left ventricular hypertrophy ,1520,0,1,2,0,1,668C>G,normal,0,1,BCBS,76181333
+4190849,Micheal Caldwell,6/8/1978,Male,asymptomatic,120,169,0,normal,144,1,2.8,3,0,1,693G>C,fixed,1,0,,
+4219017,Faye Henry,3/10/1966,Female,nontypical,130,236,0,left ventricular hypertrophy ,174,0,0,2,1,1,513G>T,normal,1,1,Aetna,48004498
+4288931,Jeffrey Bryan,4/22/1965,Male,asymptomatic,130,283,1,left ventricular hypertrophy ,103,1,1.6,3,0,0,,reversable,1,1,Anthem,41641048
+4302467,Darin Mcdonald,6/27/1960,Male,asymptomatic,140,299,0,normal,173,1,1.6,1,0,1,931A>T,reversable,1,1,Anthem,57403452
+4311493,Gustavo Day,3/3/1953,Male,nonanginal,130,214,0,left ventricular hypertrophy ,168,0,2,2,0,0,,normal,0,1,Cigna,99706216
+4349202,Devin Goodwin,1/7/1964,Male,nonanginal,150,168,0,normal,174,0,1.6,1,0,1,735G>T,normal,0,1,Cigna,44742174
+4384172,Wilfred Perry,5/8/1963,Male,asymptomatic,140,217,0,normal,111,1,5.6,3,0,0,,reversable,1,1,Cigna,66046580
+4460517,Malcolm Montgomery,2/23/1954,Male,asymptomatic,140,192,0,normal,148,0,0.4,2,0,0,,fixed,0,1,Aetna,14951150
+4478298,Camille Tucker,5/15/1974,Female,asymptomatic,138,294,1,normal,106,0,1.9,2,3,0,,normal,1,1,Anthem,70206094
+4552445,Roman Padilla,6/16/1978,Male,typical,118,186,0,left ventricular hypertrophy ,190,0,0,2,0,0,,fixed,0,1,Aetna,95914372
+4568919,Arlene Garrett,12/22/1970,Female,asymptomatic,140,394,0,left ventricular hypertrophy ,157,0,1.2,2,0,0,,normal,0,1,Aetna,94362119
+4569045,Sally Dixon,3/5/1960,Female,asymptomatic,134,409,0,left ventricular hypertrophy ,150,1,1.9,2,2,1,920C>G,reversable,1,1,Aetna,71775017
+4573949,Lee Thornton,8/30/1969,Male,asymptomatic,148,203,0,normal,161,0,0,1,1,1,281C>A,reversable,1,0,,
+4585405,Randolph Gibson,2/9/1950,Male,asymptomatic,164,176,1,left ventricular hypertrophy ,90,0,1,2,2,0,,fixed,1,0,,
+4636787,Jennie Scott,4/23/1971,Female,nonanginal,140,308,0,left ventricular hypertrophy ,142,0,1.5,1,1,1,473C>G,normal,0,1,BCBS,73963426
+4667013,Caleb Clayton,1/2/1954,Male,nontypical,110,229,0,normal,168,0,1,3,0,1,281C>A,reversable,1,1,Anthem,70206094
+4675983,Muriel Martinez,2/11/1961,Female,asymptomatic,124,197,0,normal,136,1,0,2,0,0,,normal,1,1,Anthem,80043428
+4703545,Roderick Crawford,10/14/1966,Male,nonanginal,128,229,0,left ventricular hypertrophy ,150,0,0.4,2,1,1,374A>T,reversable,1,1,Cigna,77555421
+4711066,Elias Fowler,11/13/1972,Male,asymptomatic,140,226,0,normal,178,0,0,1,0,0,,normal,0,1,BCBS,81421742
+4771204,Agnes Smith,3/1/1976,Female,asymptomatic,174,249,0,normal,143,1,0,2,0,0,,normal,1,1,Aetna,14951150
+4801920,Melinda Bradley,3/31/1955,Female,nonanginal,135,252,0,left ventricular hypertrophy ,172,0,0,1,0,1,919G>A,normal,0,1,Anthem,91176940
+4854012,Aaron Chapman,1/14/1968,Male,nontypical,128,208,1,left ventricular hypertrophy ,140,0,0,1,0,0,,normal,0,1,Cigna,47216271
+4862793,Mitchell Woods,9/18/1971,Male,asymptomatic,110,197,0,left ventricular hypertrophy ,177,0,0,1,1,1,174C>G,normal,1,1,Aetna,48004498
+4869338,Rosemarie Alvarez,10/12/1966,Female,asymptomatic,130,330,0,left ventricular hypertrophy ,169,0,0,1,0,1,895T>C,normal,1,1,Aetna,58970372
+4929687,Malcolm Estrada,7/11/1958,Male,nonanginal,130,246,1,left ventricular hypertrophy ,173,0,0,1,3,0,,normal,0,1,BCBS,48767597
+4937533,Judy Santiago,4/26/1956,Female,asymptomatic,110,254,0,left ventricular hypertrophy ,159,0,0,1,0,0,,normal,0,1,Cigna,49776610
+4962732,Clara Mason,8/14/1950,Female,nonanginal,118,242,0,normal,149,0,0.3,2,1,0,,normal,0,1,Cigna,60959600
+4965589,Scott Holloway,1/7/1971,Male,asymptomatic,125,249,1,left ventricular hypertrophy ,144,1,1.2,2,1,0,,normal,1,1,Aetna,41229891
+4987974,Henrietta Maxwell,7/3/1977,Female,nontypical,130,204,0,left ventricular hypertrophy ,172,0,1.4,1,0,1,655G>A,normal,0,1,Anthem,51594842
+5018512,Harold Martinez,12/23/1961,Male,typical,110,264,0,normal,132,0,1.2,2,0,1,931A>T,reversable,1,0,,
+5038441,Barry Norris,10/2/1961,Male,nonanginal,130,231,0,normal,146,0,1.8,2,3,1,794A>T,reversable,0,1,Anthem,75850034
+5042259,Otis Sherman,1/19/1967,Male,nontypical,122,192,0,normal,174,0,0,1,0,1,735G>T,normal,0,0,,
+5063385,June Newton,8/13/1964,Female,nonanginal,146,278,0,left ventricular hypertrophy ,152,0,0,2,1,1,328C>A,normal,0,1,Aetna,43101085
+5098277,Randal Burton,3/11/1974,Male,asymptomatic,132,207,0,normal,168,1,0,1,0,0,,reversable,0,1,Aetna,14951150
+5147216,Jerome Hall,6/7/1971,Male,asymptomatic,120,229,0,left ventricular hypertrophy ,129,1,2.6,2,2,0,,reversable,1,1,Aetna,54819339
+5153952,James Long,3/5/1963,Male,nonanginal,132,224,0,left ventricular hypertrophy ,173,0,3.2,1,2,0,,reversable,1,1,BCBS,48767597
+5200238,Jorge Washington,2/1/1967,Male,nonanginal,110,175,0,normal,123,0,0.6,1,0,1,700C>G,normal,0,1,BCBS,28822473
+5228934,Lloyd Holt,3/15/1951,Male,asymptomatic,140,207,0,left ventricular hypertrophy ,138,1,1.9,1,1,1,575A>G,reversable,1,1,BCBS,22700668
+5251712,Rickey Wolfe,11/9/1962,Male,nonanginal,150,231,0,normal,147,0,3.6,2,0,0,,normal,1,1,BCBS,98428347
+5379613,Gerald Palmer,1/4/1951,Male,nonanginal,124,255,1,normal,175,0,0,1,2,0,,normal,0,1,BCBS,69920918
+5380255,Katrina Ryan,5/28/1971,Female,asymptomatic,140,268,0,left ventricular hypertrophy ,160,0,3.6,3,2,1,682C>G,normal,1,1,BCBS,47822955
+5429331,Matt Wilkerson,3/20/1979,Male,nonanginal,150,243,1,normal,137,1,1,2,0,0,,normal,0,1,BCBS,46946408
+5450360,Russell Glover,2/20/1975,Male,asymptomatic,124,274,0,left ventricular hypertrophy ,166,0,0.5,2,0,0,,reversable,1,1,BCBS,87269291
+5468005,Miriam Estrada,2/9/1956,Female,asymptomatic,130,269,0,normal,163,0,0,1,0,1,871T>A,normal,0,1,BCBS,61445796
+5498878,Emmett Luna,9/17/1976,Male,nonanginal,138,223,0,normal,169,0,0,1,,1,858T>C,normal,0,1,Aetna,94362119
+5532823,Edgar Padilla,5/27/1960,Male,nontypical,128,308,0,left ventricular hypertrophy ,170,0,0,1,0,0,,normal,0,1,BCBS,98428347
+5636456,Freddie Walker,10/25/1975,Male,asymptomatic,140,293,0,left ventricular hypertrophy ,170,0,1.2,2,2,1,785C>A,reversable,1,1,Aetna,54819339
+5637268,Shane Barnes,1/4/1968,Male,typical,120,231,0,normal,182,1,3.8,2,0,1,267A>T,reversable,1,1,BCBS,61445796
+5666303,Crystal Stewart,4/24/1952,Female,nontypical,132,288,1,left ventricular hypertrophy ,159,1,0,1,1,0,,normal,0,1,Aetna,76740250
+5673855,Celia Rogers,5/6/1960,Female,nonanginal,152,277,0,normal,172,0,0,1,1,0,,normal,0,1,Cigna,84650228
+5681993,Sidney Maldonado,12/16/1950,Male,nonanginal,94,227,0,normal,154,1,0,1,1,0,,reversable,0,1,Anthem,20094955
+5682287,Annette Cummings,6/5/1951,Female,nontypical,126,306,0,normal,163,0,0,1,0,0,,normal,0,1,Anthem,20094955
+5682660,Everett Clayton,12/16/1963,Male,nontypical,128,205,1,normal,184,0,0,1,0,1,735G>T,normal,0,1,Cigna,14591698
+5704260,Archie Allison,8/11/1979,Male,asymptomatic,150,243,0,left ventricular hypertrophy ,128,0,2.6,2,0,1,225T>C,reversable,1,1,Cigna,74828504
+5708266,Ashley Conner,10/17/1978,Female,asymptomatic,112,149,0,normal,125,0,1.6,2,0,0,,normal,0,1,Aetna,82353240
+5714119,Lula Mullins,6/12/1975,Female,asymptomatic,160,164,0,left ventricular hypertrophy ,145,0,6.2,3,3,1,693G>C,reversable,1,1,BCBS,37407489
+5748056,Sylvester Hill,6/27/1953,Male,asymptomatic,110,206,0,left ventricular hypertrophy ,108,1,0,2,1,1,794A>T,normal,1,1,Aetna,89771647
+5780992,Don Schneider,9/26/1978,Male,typical,170,227,0,left ventricular hypertrophy ,155,0,0.6,2,0,0,,reversable,0,0,,
+5784874,Jeremiah Glover,10/2/1961,Male,asymptomatic,120,188,0,normal,113,0,1.4,2,1,0,,reversable,1,1,Aetna,82353240
+5824048,Carlos Ramsey,10/29/1979,Male,asymptomatic,120,177,0,left ventricular hypertrophy ,120,1,2.5,2,0,0,,reversable,1,1,BCBS,88416332
+5825014,Kirk Rios,4/10/1974,Male,asymptomatic,120,267,0,normal,99,1,1.8,2,2,0,,reversable,1,1,Anthem,80043428
+5856530,Taylor Watts,9/17/1967,Male,nonanginal,130,315,0,normal,162,0,1.9,1,1,1,668C>G,normal,0,1,Cigna,49776610
+5913631,Jonathan May,5/8/1950,Male,asymptomatic,110,335,0,normal,143,1,3,2,1,1,564T>G,reversable,1,0,,
+5965252,Doug Guzman,10/23/1975,Male,asymptomatic,140,239,0,normal,160,0,1.2,1,0,1,473C>G,normal,0,1,Anthem,37112136
+5980212,Mike Reynolds,10/11/1967,Male,asymptomatic,120,260,0,normal,140,1,3.6,2,1,0,,reversable,1,1,Anthem,73060647
+6057492,Johnny Owens,6/30/1954,Male,asymptomatic,140,298,0,normal,122,1,4.2,2,3,0,,reversable,1,1,BCBS,88416332
+6084436,Cornelius Smith,5/17/1962,Male,nonanginal,172,199,1,normal,162,0,0.5,1,0,1,340G>A,reversable,0,1,Anthem,75850034
+6089367,Hugh Patterson,6/29/1970,Male,asymptomatic,120,249,0,left ventricular hypertrophy ,144,0,0.8,1,0,1,871T>A,reversable,1,1,Cigna,20091514
+6089798,Howard Roberson,7/28/1979,Male,asymptomatic,112,212,0,left ventricular hypertrophy ,132,1,0.1,1,1,1,959C>A,normal,1,1,Cigna,14591698
+6150209,Daisy Mann,9/5/1967,Female,nontypical,134,271,0,normal,162,0,0,2,0,0,,normal,0,1,BCBS,73963426
+6153142,Juanita Figueroa,1/15/1960,Female,asymptomatic,150,225,0,left ventricular hypertrophy ,114,0,1,2,3,1,575A>G,reversable,1,1,Anthem,74742560
+6192780,Floyd Schmidt,3/1/1952,Male,asymptomatic,126,282,0,left ventricular hypertrophy ,156,1,0,1,0,0,,reversable,1,1,Aetna,71775017
+6194356,Nathaniel Nunez,3/2/1955,Male,asymptomatic,124,266,0,left ventricular hypertrophy ,109,1,2.2,2,1,0,,reversable,1,1,BCBS,37407489
+6200545,Ron Bishop,11/20/1954,Male,nonanginal,140,185,0,left ventricular hypertrophy ,155,0,3,2,0,0,,normal,1,1,Anthem,41641048
+6224702,Harry Wolfe,11/13/1954,Male,asymptomatic,136,315,0,normal,125,1,1.8,2,0,0,,fixed,1,1,Anthem,75850034
+6240137,Stewart Little,9/22/1974,Male,asymptomatic,138,166,0,left ventricular hypertrophy ,125,1,3.6,2,1,0,,normal,1,1,Aetna,71775017
+6252239,Winston Abbott,11/12/1950,Male,nonanginal,120,258,0,left ventricular hypertrophy ,147,0,0.4,2,0,0,,rev,0,1,BCBS,73963426
+6252597,Dennis Carpenter,11/2/1955,Male,asymptomatic,160,289,0,left ventricular hypertrophy ,145,1,0.8,2,1,0,,reversable,1,1,Anthem,80043428
+6271699,Israel Hayes,8/28/1961,Male,asymptomatic,130,256,1,left ventricular hypertrophy ,150,1,0,1,2,0,,reversable,1,1,BCBS,46946408
+6274433,Virgil Bryant,1/8/1976,Male,asymptomatic,122,286,0,left ventricular hypertrophy ,116,1,3.2,2,2,0,,normal,1,1,Aetna,43101085
+6343171,Loretta Mendoza,4/7/1951,Female,asymptomatic,130,264,0,left ventricular hypertrophy ,143,0,0.4,2,0,0,,normal,0,1,Anthem,20094955
+6344402,Sara Becker,11/7/1959,Female,nonanginal,136,196,0,left ventricular hypertrophy ,169,0,0.1,2,0,0,,normal,0,1,Cigna,66046580
+6353758,Evan Terry,12/17/1971,Male,asymptomatic,120,246,0,left ventricular hypertrophy ,96,1,2.2,3,1,1,919G>A,normal,1,1,Cigna,86059460
+6355762,Hannah Reese,6/26/1955,Female,asymptomatic,130,303,0,normal,122,0,2,2,2,0,,normal,0,1,Aetna,95914372
+6365256,Orville Holmes,10/29/1963,Male,asymptomatic,120,302,0,left ventricular hypertrophy ,151,0,0.4,2,0,0,,normal,0,1,Aetna,71775017
+6380814,Stanley Harper,5/1/1975,Male,typ,178,270,0,left ventricular hypertrophy ,145,0,4.2,3,0,0,,reversable,0,1,Cigna,77555421
+6390308,Georgia Townsend,1/4/1958,Female,nonanginal,140,313,0,normal,133,0,0.2,1,0,0,,reversable,0,1,BCBS,87269291
+6398056,Francis Sims,5/6/1969,Female,nonanginal,108,141,0,normal,175,0,0.6,2,0,0,,normal,0,1,Aetna,47205269
+6458136,Sonya Brown,3/21/1978,Female,nonanginal,160,201,0,normal,163,0,0,1,1,0,,normal,0,1,Cigna,74828504
+6484144,Herman Reeves,6/7/1973,Male,asymptomatic,122,222,0,left ventricular hypertrophy ,186,0,0,1,0,0,,normal,0,1,BCBS,47459609
+6533199,Seth Hamilton,8/1/1974,Male,asymptomatic,160,228,0,left ventricular hypertrophy ,138,0,2.3,1,0,0,,fixed,0,1,Cigna,49776610
+6597188,Lana Webb,8/7/1976,Female,nonanginal,135,304,1,normal,170,0,0,1,0,1,340G>A,normal,0,1,Anthem,36678899
+6651758,Darrell Perez,2/12/1963,Male,NT,130,219,0,left ventricular hypertrophy ,188,0,0,1,0,1,668C>G,normal,0,1,Cigna,99706216
+6689740,Eleanor Walker,11/1/1979,Female,nontypical,130,234,0,left ventricular hypertrophy ,175,0,0.6,2,0,0,,normal,0,1,BCBS,98428347
+6696709,Diane Lawson,6/13/1961,Female,nonanginal,142,177,0,left ventricular hypertrophy ,160,1,1.4,3,0,1,564T>G,normal,0,1,Cigna,66046580
+6703760,Essie Brady,10/18/1959,Female,nonanginal,110,214,0,normal,158,0,1.6,2,0,0,,normal,0,1,Aetna,72835820
+6728879,Charlie Gardner,6/17/1974,Male,nontypical,120,220,0,normal,170,0,0,1,0,0,,normal,0,1,Cigna,74828504
+6781485,Armando Sanders,4/11/1976,Male,nonanginal,120,240,1,normal,194,0,0.8,3,0,1,920C>G,reversable,0,1,Anthem,73060647
+6783285,Melody Warner,10/27/1959,Female,nonanginal,115,564,0,left ventricular hypertrophy ,160,0,1.6,2,0,0,,reversable,0,1,Aetna,54819339
+6793163,Isaac Torres,12/4/1959,Male,asymptomatic,100,299,0,left ventricular hypertrophy ,125,1,0.9,2,2,0,,normal,1,1,Cigna,96623293
+6793964,Ivan Moore,3/17/1955,Male,asymptomatic,152,274,0,normal,88,1,1.2,2,1,0,,reversable,1,1,Anthem,37112136
+6795235,Tim Adams,12/15/1967,Male,asymptomatic,145,282,0,left ventricular hypertrophy ,142,1,2.8,2,2,0,,reversable,1,1,Aetna,43101085
+6829511,Donald Moody,11/19/1961,Male,nonanginal,108,243,0,normal,152,0,0,1,0,0,,normal,1,1,Anthem,41641048
+6831867,Megan Simpson,1/2/1972,Female,asymptomatic,138,183,0,normal,182,0,1.4,1,0,1,863T>G,normal,0,1,Cigna,20091514
+6832254,Ellis Carlson,5/9/1976,Male,nontypical,130,204,0,left ventricular hypertrophy ,202,0,0,1,0,1,575A>G,normal,0,1,BCBS,61445796
+6912438,Kelvin Turner,7/23/1965,Male,nonanginal,140,335,0,normal,158,0,0,1,0,1,931A>T,normal,1,1,Anthem,47042483
+6914564,Conrad Cross,6/2/1962,Male,nontypical,130,221,0,left ventricular hypertrophy ,163,0,0,1,0,1,383C>T,reversable,0,0,,
+7035901,Norma Baldwin,11/21/1974,Female,nonanginal,120,219,0,normal,158,0,1.6,2,0,1,513G>T,normal,0,1,Cigna,34108680
+7054025,Debra Duncan,2/5/1968,Female,nonanginal,120,295,0,left ventricular hypertrophy ,157,0,0.6,1,0,0,,normal,0,1,Cigna,68686277
+7078663,Caleb Thompson,8/16/1951,Male,nonanginal,125,245,1,left ventricular hypertrophy ,166,0,2.4,2,0,0,,normal,0,1,Anthem,91176940
+7082197,Johnnie Berry,12/30/1971,Male,typical,140,199,0,normal,178,1,1.4,1,0,1,858T>C,reversable,0,1,Cigna,84650228
+7121549,Mario Peterson,9/15/1979,Male,nonanginal,130,250,0,normal,187,0,3.5,3,0,1,575A>G,normal,0,1,Aetna,72835820
+7150993,Tami Collier,11/12/1957,Female,nontypical,135,250,0,left ventricular hypertrophy ,161,0,1.4,2,0,1,700C>G,normal,0,1,Aetna,48004498
+7174538,Melanie Freeman,9/13/1965,Female,nonanginal,140,197,0,ST-T wave abnormality,116,0,1.1,2,0,1,374A>T,normal,0,1,Anthem,91176940
+7209211,Rafael Powers,8/9/1958,Male,nonanginal,140,233,0,normal,163,0,0.6,2,1,0,,rev,1,1,Aetna,47205269
+7218443,Sherri Holland,11/11/1976,Female,typical,not measured,not measured,0,normal,151,0,1.8,1,2,0,,normal,0,1,BCBS,20252358
+7257475,Lucy Marsh,2/12/1976,Female,nonanginal,140,417,1,left ventricular hypertrophy ,157,0,0.8,1,1,0,,normal,0,1,BCBS,89824187
+7278806,Alejandro Reeves,12/5/1971,Male,asymptomatic,128,204,1,normal,156,1,1,2,0,1,513G>T,,1,1,Cigna,44742174
+7295927,Pete Evans,4/28/1950,Male,asymptomatic,104,208,0,left ventricular hypertrophy ,148,1,3,2,0,1,267A>T,normal,0,1,Aetna,72835820
+7297484,Charles Ortiz,4/27/1954,Male,nonanginal,130,256,1,left ventricular hypertrophy ,142,1,0.6,2,1,0,,fixed,1,1,Aetna,94362119
+7355046,Lela Frazier,9/21/1975,Female,nonanginal,120,209,0,normal,173,0,0,2,0,0,,normal,0,1,BCBS,37407489
+7372387,Lamar Simpson,9/14/1979,Male,asymptomatic,128,255,0,normal,161,1,0,1,1,1,959C>A,reversable,1,1,Cigna,44742174
+7385729,Erma Butler,8/31/1969,Female,nonanginal,120,215,0,normal,170,0,0,1,0,0,,normal,0,1,Cigna,77555421
+7414415,Felix Bailey,3/6/1959,Male,nonanginal,180,274,1,left ventricular hypertrophy ,150,1,1.6,2,0,0,,reversable,1,1,Aetna,76740250
+7422192,Freddie French,1/31/1970,Male,nonanginal,150,232,0,left ventricular hypertrophy ,165,0,1.6,1,0,0,,reversable,0,1,Cigna,20091514
+7427693,Gordon Hansen,9/6/1963,Male,asymptomatic,118,219,0,normal,140,0,1.2,2,0,0,,reversable,1,1,Anthem,47042483
+7434903,Ellis Mcdaniel,9/14/1951,Male,nonanginal,130,180,0,normal,150,0,0,1,0,0,,normal,0,1,BCBS,47459609
+7491910,Christopher Graves,1/25/1970,Male,asymptomatic,110,172,0,left ventricular hypertrophy ,158,0,0,1,0,0,,reversable,1,1,Anthem,91176940
+7498043,Alyssa Carroll,3/4/1974,Female,asymptomatic,138,236,0,left ventricular hypertrophy ,152,1,0.2,2,0,0,,normal,0,1,BCBS,47459609
+7512308,Wendell Lee,11/30/1977,Male,typical,160,234,1,left ventricular hypertrophy ,131,0,0.1,2,1,0,,normal,0,1,BCBS,46946408
+7534284,Carlos Allen,1/17/1976,Male,nontypical,154,232,0,left ventricular hypertrophy ,164,0,0,1,1,0,,normal,1,0,,
+7560922,Israel Foster,4/5/1952,Male,typ,134,204,0,normal,162,0,0.8,1,2,0,,normal,1,0,,
+7636270,Tony Turner,6/3/1972,Male,asymptomatic,112,230,0,normal,160,0,0,1,1,0,,normal,1,1,Cigna,68686277
+7688326,Alma Bennett,7/24/1958,Female,nonanginal,112,268,0,left ventricular hypertrophy ,172,1,0,1,0,1,267A>T,normal,0,1,BCBS,81421742
+7692762,Bryan Willis,5/26/1959,Male,nontypical,120,284,0,left ventricular hypertrophy ,160,0,1.8,2,0,1,960C>G,normal,1,1,Cigna,49776610
+7693520,Toby French,11/24/1956,Male,nontypical,125,220,0,normal,144,0,0.4,2,,0,,reversable,0,0,,
+7698361,Woodrow Abbott,9/18/1962,Male,asymptomatic,108,233,1,normal,147,0,0.1,1,3,0,,reversable,0,1,BCBS,47459609
+7757915,Jeff Floyd,8/26/1953,Male,asymptomatic,110,275,0,left ventricular hypertrophy ,118,1,1,2,1,0,,normal,1,1,Aetna,48004498
+7761784,Stacy Webster,1/28/1960,Female,asymptomatic,180,327,0,ST-T wave abnormality,117,1,3.4,2,0,1,794A>T,normal,1,1,Anthem,36678899
+7784081,Alonzo Pittman,12/9/1950,Male,nontypical,101,197,1,normal,156,0,0,1,0,0,,reversable,0,1,BCBS,76181333
+7797805,Kenny Todd,12/9/1956,Male,nontypical,108,309,0,normal,156,0,0,1,0,0,,reversable,0,1,BCBS,87269291
+7830865,Bradley Edwards,4/17/1977,Male,nontypical,120,240,0,normal,169,0,0,3,0,1,960C>G,norm,0,0,,
+7853290,Craig Collins,8/10/1973,Male,nonanginal,130,233,0,normal,179,1,0.4,1,0,1,785C>A,norm,0,1,Aetna,95914372
+7873774,Vicki Chandler,8/12/1969,Female,asymptomatic,128,303,0,left ventricular hypertrophy ,159,0,0,1,1,1,931A>T,normal,0,1,Aetna,89771647
+7909954,Janis Owen,7/24/1966,Female,nontypical,140,195,0,normal,179,0,0,1,2,1,242G>A,normal,0,1,Cigna,44742174
+7927500,Calvin Silva,4/17/1962,Male,nonanginal,112,230,0,left ventricular hypertrophy ,165,0,2.5,2,1,0,,reversable,1,1,Anthem,36678899
+7930170,Pam Vargas,7/28/1958,Female,nonanginal,130,263,0,normal,97,0,1.2,2,1,0,,reversable,1,1,Anthem,41641048
+7995910,Derrick Black,10/30/1977,Male,asymptomatic,130,253,0,normal,144,1,1.4,1,1,0,,reversable,1,1,Cigna,68686277
+7998162,Jacob Tate,10/14/1967,Male,nonanginal,125,273,0,left ventricular hypertrophy ,152,0,0.5,3,1,1,920C>G,normal,0,1,Cigna,60959600
+8002105,Raul Cruz,11/9/1973,Male,asymptomatic,130,330,1,left ventricular hypertrophy ,132,1,1.8,1,3,1,655G>A,reversable,1,1,BCBS,35952493
+8071282,Dallas Sutton,8/8/1958,Male,asymptomatic,120,198,0,normal,130,1,1.6,2,0,0,,reversable,1,1,Aetna,47205269
+8137962,Damon Gonzales,7/23/1971,Male,nonanginal,100,222,0,normal,143,1,1.2,2,0,0,,normal,0,1,Cigna,84650228
+8184847,Ervin Bradley,5/26/1973,Male,nonanginal,120,188,0,normal,139,0,2,2,3,0,,reversable,1,1,BCBS,48767597
+8201792,Joey Sanchez,12/9/1976,Male,nontypical,120,263,0,normal,173,0,0,1,0,1,564T>G,reversable,0,1,Aetna,71775017
+8202171,Glen Erickson,12/15/1956,Male,asymptomatic,132,247,1,left ventricular hypertrophy ,143,1,0.1,2,,0,,reversable,1,1,BCBS,35952493
+8221360,Alexander Swanson,8/25/1954,Male,asymptomatic,152,223,0,normal,181,0,0,1,0,0,,reversable,1,1,Anthem,37112136
+8265604,Kari Morrison,8/16/1957,Female,typical,150,240,0,normal,171,0,0.9,1,0,0,,normal,0,1,Cigna,14591698
+8357156,Vickie Thomas,10/28/1954,Female,asymptomatic,102,265,0,left ventricular hypertrophy ,122,0,0.6,2,0,0,,normal,0,1,Cigna,47216271
+8390560,Randy Ferguson,5/21/1971,Male,asymptomatic,144,200,0,left ventricular hypertrophy ,126,1,0.9,2,0,0,,reversable,1,1,BCBS,73963426
+8408229,Benny Jordan,9/21/1955,Male,asymptomatic,150,247,0,normal,171,0,1.5,1,0,0,,normal,0,1,Cigna,13049744
+8510583,Mary Keller,12/21/1960,Female,nontypical,140,294,0,left ventricular hypertrophy ,153,0,1.3,2,0,0,,normal,0,1,BCBS,10767476
+8553813,Juan Howard,6/1/1958,Male,asymptomatic,128,216,0,left ventricular hypertrophy ,131,1,2.2,2,3,1,242G>A,reversable,1,1,Cigna,14591698
+8585549,Byron Carson,10/22/1968,Male,nonanginal,150,126,1,normal,173,0,0.2,1,1,0,,reversable,0,1,Cigna,66046580
+8644395,Phil Ellis,8/26/1974,Male,nonanginal,129,196,0,normal,163,0,0,1,0,0,,normal,0,1,BCBS,81421742
+8673101,Constance Knight,6/12/1968,Female,nonanginal,130,275,0,normal,139,0,0.2,1,0,0,,normal,0,1,Cigna,20997568
+8707115,Ralph Ball,11/4/1959,Male,asymptomatic,138,271,0,left ventricular hypertrophy ,182,0,0,1,0,1,887C>G,normal,0,1,Aetna,47205269
+8728072,Cecilia Silva,10/22/1973,Female,nonanginal,120,211,0,left ventricular hypertrophy ,115,0,1.5,2,0,0,,normal,0,1,Anthem,37112136
+8754055,Myron Parks,3/17/1959,Male,asymptomatic,142,226,0,left ventricular hypertrophy ,111,1,0,1,0,1,700C>G,reversable,0,1,Cigna,44742174
+8782240,Oscar Franklin,11/26/1969,Male,nonanginal,125,309,0,normal,131,1,1.8,2,0,1,281C>A,reversable,1,1,Aetna,82353240
+8909618,Tim Boone,4/23/1972,Male,asymptomatic,130,131,0,normal,115,1,1.2,2,1,1,785C>A,rev,1,0,,
+9074044,Andy Murphy,9/24/1976,Male,asymptomatic,120,177,0,normal,140,0,0.4,1,0,0,,reversable,0,1,Anthem,20094955
+9128774,Andre Ruiz,9/1/1975,Male,asymptomatic,145,212,0,left ventricular hypertrophy ,132,0,2,2,2,1,225T>C,fixed,1,1,Anthem,70206094
+9149563,Joseph Benson,12/4/1973,Male,nonanginal,140,211,1,left ventricular hypertrophy ,165,0,0,1,0,0,,normal,0,1,BCBS,88416332
+9317738,Kristi Gardner,1/8/1954,Female,asymptomatic,180,325,0,normal,154,1,0,1,0,0,,normal,0,1,BCBS,48767597
+9390463,Austin Griffin,1/20/1974,Male,nonanginal,118,149,0,left ventricular hypertrophy ,126,0,0.8,1,3,0,,normal,1,1,Aetna,82353240
+9398902,Mercedes Riley,1/15/1954,Female,nontypical,120,269,0,left ventricular hypertrophy ,121,1,0.2,1,1,1,959C>A,normal,0,1,BCBS,28822473
+9414036,Josh Henderson,1/7/1973,Male,asymptomatic,110,239,0,normal,126,1,2.8,2,1,1,513G>T,reversable,1,1,BCBS,28822473
+9420398,Byron Hughes,7/31/1964,Male,nonanginal,152,212,0,left ventricular hypertrophy ,150,0,0.8,2,0,0,,reversable,1,0,,
+9431147,Myrtle Roy,10/27/1975,Female,nonanginal,128,216,0,left ventricular hypertrophy ,115,0,0,1,0,1,383C>T,,0,1,BCBS,61445796
+9491172,Derek Christensen,5/29/1951,Male,nontypical,120,325,0,normal,172,0,0.2,1,0,1,471C>T,normal,0,1,BCBS,69920918
+9550504,Lucas Harvey,5/26/1958,Male,asymptomatic,132,353,0,normal,132,1,1.2,2,1,0,,rev,1,1,Cigna,96623293
+9595587,Merle Mccoy,1/25/1955,Male,asymptomatic,145,174,0,normal,125,1,2.6,3,0,1,895T>C,reversable,1,1,Cigna,68686277
+9637576,Angelina Cain,8/3/1978,Female,asymptomatic,138,234,0,left ventricular hypertrophy ,160,0,0,1,0,1,960C>G,normal,0,1,Cigna,99706216
+9654715,Isabel Holloway,9/5/1950,Female,nontypical,120,244,0,normal,162,0,1.1,1,0,0,,normal,0,1,BCBS,22700668
+9669360,Tommie Jones,9/25/1976,Male,typical,170,288,0,left ventricular hypertrophy ,159,0,0.2,2,0,1,340G>A,reversable,1,1,Aetna,89771647
+9705323,Philip Myers,12/14/1952,Male,asymptomatic,112,204,0,normal,143,0,0.1,1,0,0,,normal,0,1,Cigna,60959600
+9756953,Jody Curry,4/13/1970,Male,nonanginal,118,277,0,normal,151,0,1,1,1,0,,reversable,0,1,Aetna,72835820
+9770584,Evan Pena,1/5/1965,Male,nontypical,120,236,0,normal,178,0,0.8,1,0,0,,normal,0,1,BCBS,76181333
+9775517,Carrie Byrd,3/26/1957,Female,nontypical,105,198,0,normal,168,0,0,1,1,0,,normal,0,1,Aetna,73161320
+9795194,Noel Frazier,7/14/1963,Male,asymptomatic,130,254,0,left ventricular hypertrophy ,147,0,1.4,2,1,1,895T>C,reversable,1,1,Aetna,76740250
+9881928,Isaac Chandler,11/8/1965,Male,nontypical,130,266,0,normal,171,0,0.6,1,0,0,,normal,0,1,BCBS,47459609
+9892509,Bob Griffith,2/15/1966,Male,typical,120,193,0,left ventricular hypertrophy ,162,0,1.9,2,0,1,471C>T,reversable,0,1,BCBS,37407489
+9922292,Marcus Reese,2/10/1973,Male,nontypical,110,235,0,normal,153,0,0,1,0,0,,normal,0,1,BCBS,98428347
+9925657,Billie Parks,9/29/1966,Female,nonanginal,94,199,0,normal,179,0,0,1,0,0,,normal,0,1,BCBS,35952493
+9928317,Stacey Murray,9/29/1963,Female,nontypical,160,302,0,normal,162,0,0.4,1,2,0,,normal,0,1,Anthem,29769276
+9942801,Aaron Coleman,6/29/1966,Male,nonanginal,138,257,0,left ventricular hypertrophy ,156,0,0,1,0,0,,normal,0,1,Aetna,94362119
+9984777,Shari Mckenzie,5/13/1958,Female,asymptomatic,108,269,0,normal,169,1,1.8,2,2,1,471C>T,normal,1,1,Cigna,96623293

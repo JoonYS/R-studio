@@ -1,0 +1,101 @@
+---
+title: "Homework 6"
+author: "JunYeong_Shin"
+date: "7/26/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Problem Set
+## Q1 (10 points)
+
+For Q1-Q3, you are free to use a base plotting function (first half of class) or ggplot2.
+
+Load in the `HortonGeneralHospital.csv` data set.  This file contains data on the
+number of three types of transfers into critical care (Cardio, Resp & Hypo), as
+well as the total number of patients entering the Emergency Room that month (Adm).
+Analysis of this data was used to convict nurse Ben Geen of intentionally harming 18 patients
+over the months of December 2003 to February 2004, for which he is serving a life
+prison sentence.  Reanalysis of this data is now being used to attempt to grant 
+him a new trial (source: https://archive.ics.uci.edu/ml/datasets/Horton+General+Hospital).
+We'll do a small portion of this analysis.
+
+Build the most appropriate type of plot showing the number of respiratory (Resp)
+critical care transfers each month over the time period in the file (11/1999 to 5/2011). 
+Then calculate the total critical care transfers over each month (Cardio, Resp & Hypo), 
+and make a similar plot using the totals.
+
+
+```{r}
+
+# Hint: If you don't want to create a time series object, use this
+#     dat$date <- as.Date(paste0(dat$year, "-", dat$month, "-1"), format = "%Y-%m-%d") 
+# to generate a "date" column for your data frame. This arbitrarily 
+# sets the "date" to the 1st day of each month, which is fine. Then use this 
+# column to help make your plot.
+HortonGeneralHospital$date <- as.Date(paste0(HortonGeneralHospital$year, "-", HortonGeneralHospital$month, "-1"), format = "%Y-%m-%d")
+ggplot(HortonGeneralHospital,aes(x = date, y = Resp))+geom_point()+xlab("Year")+ylab("Number of respiratory transfer")+facet_wrap(~month)
+
+
+sum(HortonGeneralHospital$Cardio >0)+ sum(HortonGeneralHospital$Hypo >0) + sum(HortonGeneralHospital$Resp >0) 
+
+#this is the totaltransfer of critical care
+
+
+
+
+
+
+```
+
+
+## Q2 (5 points)
+
+Make a scatterplot of the number of Respiratory transfers to critical care (Resp), vs.
+the total number of admissions to ER (Adm). Based on this scatterplot, what 
+simple observation can you make about the month when there were 4 respiratory transfers?
+
+```{r}
+
+ggplot(HortonGeneralHospital, aes(x = Resp, y = Adm)) +
+  geom_point() +
+  facet_wrap(~ month)
+     
+    #Observation is that the 4 respiratory transfer only happened once in December
+     
+```
+
+
+## Q3 (5 points)
+
+Load in `SCMS_Delivery_History_Dataset_20150929.csv`. This supply chain data set 
+contains HIV testing and antiretroviral shipment data from USAID 
+(source: https://data.world/usaid/supply-chain-shipment-pricing).
+
+The "Sub.Classification" column indicates which type of product was included in 
+each shipment.  Make a barplot of the counts of that column to show the distribution
+of shipment types (i.e. how many shipments included HIV tests, Adult medication, etc.?).
+
+```{r}
+scms = read.csv("~/Week 6/Week6_data/SCMS_Delivery_History_Dataset_20150929.csv")
+ggplot(scms,aes(Sub.Classification))+geom_bar()
+
+        
+       
+```
+
+## Q4 (5 points)
+
+Use the ggplot2 library to make a boxplot showing the distribution of "Pack.Price" across 
+the different "Sub.Classification" groups. Try to add something to your code
+to make the plot easier to read.
+
+```{r}
+ggplot(scms, aes(x = Pack.Price, y = Sub.Classification)) +
+  geom_boxplot(fill = "pink")+coord_cartesian(xlim= c(0,100))
+
+
+```

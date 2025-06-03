@@ -1,0 +1,110 @@
+---
+title: "Homework 4"
+author: "Junyeong_Shin"
+date: "9/23/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Note
+v2 - Added 3 point bonus question at the end, and a few hints to Q3.
+
+# Problem Set
+## Q1 (5 points)
+
+**Read the whole question before starting.** 
+Convert the following 'for' loop to a 'while' loop.
+
+```{r}
+
+# Do not edit this block.
+# You can run this block using the 'play' button to see the result.
+
+vec <- seq(3, 30, by = 3)
+for (i in vec) {
+  print(i)
+}
+
+```
+
+Here's the code I've written to get you started.  What's missing? Add something 
+so that this loop has the same result as the 'for' loop above.
+
+```{r}
+
+# Edit this block.
+# Remember to use the 'stop' button or ESC key if you need to make it stop running.
+
+j <- 3
+while (j <= 30) {
+  print(j)
+  j = j+3
+}
+
+```
+
+
+## Q2 (10 points)
+
+**This is a classic question in data science & computer programming job interviews.**
+
+For every integer from 1 to 100, print one of the following things:
+- Print "Fizz" if the integer is odd,
+- Print "Buzz" if the integer is divisible by 5,
+- Print "FizzBuzz" if the integer is odd and divisible by 5.
+- Just print the integer if it is neither of those things.
+
+```{r}
+# Hint: Remember, 'X %% Y' gives you the remainder after dividing X by Y.
+for (x in 1:100){
+  if (x %% 5==0 & x %% 2==1){
+    print("fizzbuzz")
+  } else if (x %% 5==0){
+    print("buzz")
+  } else if (x %% 2==1){
+    print ("fizz")
+  }
+}
+
+```
+
+
+## Q3 (10  points)
+
+Read in the "Immunotherapy.csv" data set. Using a 'for' loop, print the 
+median for every numeric column.  If you import the data from the 'Files' window,
+you might need to change 'read_csv' to 'read.csv' to make the rest work (like
+the in-class code).
+
+**Bonus (2 points)** Also, print a `table` of each character/factor column.
+
+```{r}
+for (i in 1: ncol(Immunotherapy)){
+    if(class(Immunotherapy[,i])== "numeric"| class(Immunotherapy[,i])== "integer"){
+      print(median(Immunotherapy[,i]))
+    }## Bonus
+else if(class(Immunotherapy[,i])== "character"| class(Immunotherapy[,i])== "factor"){
+      print(table(Immunotherapy[,i]))
+}}
+
+
+
+```
+
+
+## Bonus (3 points)
+
+Write a 'while' loop that will figure out if any number `num` is prime.
+
+```{r}
+# Remember, if you copy code from the internet, post a link to your source
+# and add comments to explain what each part of the code is doing.
+
+
+```
+
+
+
