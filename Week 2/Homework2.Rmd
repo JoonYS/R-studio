@@ -1,0 +1,94 @@
+---
+title: "Homework 2"
+author: "Your Name"
+date: "7/2/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Problem Set
+## Q1 (5 points)
+
+What is the difference between a matrix and a data frame? When might we want to
+use a data frame instead of a matrix?
+
+**Type your answer below:**
+In a matrix all the data have to be in the same class
+In data frame it can have any number of class
+
+Because data frames allow more than one class you can have diverse data points.
+
+
+## Q2 (5 points) 
+
+Use an R command to find the "needle" in the list below.
+
+```{r}
+
+haystack <- list(hay1 = c("not_here", "or_here"),
+                 hay2 = 250:400,
+                 hay3 = list(more_numbers = c(55, 44, 33),
+                             a_data_frame = data.frame(who = c("Amy", "Bart", "Chip"),
+                                                       what = c("party", "food", "needle"),
+                                                       when = c(1030, 1200, 1415),
+                                                       why = c("why_not", "bored", "tired")),
+                             a_word = "homework"
+                 ),
+                 hay4 = c(FALSE, FALSE, FALSE, FALSE, TRUE))
+
+# Type your code below, using brackets and/or $.  The output should be "needle"
+haystack[[3]] [[2]] [3,2]
+
+```
+
+
+## Q3 (5 points)
+
+Read in the `heart.csv` data set. Using R, answer the following questions:
+(a) How many patients are in the data set? 
+
+```{r}
+#used import dataset to read in heart.csv data
+nrow(heart_data)
+```
+
+(b) What class is the `thal` column?
+
+```{r}
+class(heart_data$thal)
+
+```
+
+(c) How many of the patients have "nontypical" chest pain?
+
+```{r}
+table(heart_data$chest_pain)[3]
+```
+
+## Q4 (10 points)
+
+Sometimes a typo or strange entry can mess up your whole data analysis. Read in 
+`waiting_room3.csv` and try to make a histogram (`hist()`) to show the distribution
+of `Waiting_time`. Did it work?
+
+What `class` is `Waiting_time`? Do you see anything wrong with `Waiting_time`? 
+Correct the bad entry using an R command (there are multiple acceptable solutions
+for this). Then convert the whole column to another class, and try again to make 
+a histogram.
+
+```{r}
+#used import data set to read in waiting_room3.csv
+
+(hist(waiting_room3))
+# This method (`hist(waiting_room3)`) did not work
+class(waiting_room3$Waiting_time)
+#class is character some one wrote in "maybe 10" so it became a character
+waiting_room3$Waiting_time[8] = "10"
+
+waiting_room3$Waiting_time = as.numeric(waiting_room3$Waiting_time)
+hist(waiting_room3$Waiting_time)
+
+```

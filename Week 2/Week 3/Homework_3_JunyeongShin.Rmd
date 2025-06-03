@@ -1,0 +1,108 @@
+---
+title: "Homework 3"
+author: "JunYeong_Shin"
+date: " / /2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Problem Set
+## Q1 (5 points)
+
+Explain in words (step by step, by breaking the statement into parts) why the following 
+statement results in TRUE or FALSE.
+
+```{r}
+
+x <- 45
+y <- 3
+words <- c("homework", "lecture")
+
+(x > y & x <= 30) | !(words[2] == "lecture" & "party" %in% words)
+
+
+# Feel free to write additional code below to help yourself see what's happening:
+
+
+```
+
+**Write your answer below:**
+
+# The Q1 is true because the first part is asking if x is bigger than y and if x is less than or equal to 30 which these conditions are both proved to be true therfore this part is true the second part is asking of in the "words" it has the word party and lecture in "words" which this is true. So since both these are true the or statement comes out as true.
+
+## Q2 (5 points)
+
+Read in "Immunotherapy.csv", which is a data set about the use of immunotherapy
+as treatment for plantar and common warts (Khozeimeh et al. 2017). Then answer
+these two questions using R.
+
+(a) How many total patients are in the data set?
+
+```{r}
+nrow(Immunotherapy)
+
+```
+
+(b) How many patients had 5 or more warts?
+
+```{r}
+lot_of_warts <- Immunotherapy[Immunotherapy$Number_of_Warts >=5,]
+sum(Immunotherapy$Number_of_Warts >=5)
+
+```
+
+## Q3 (10 points)
+
+Using the same data set as Q2, answer the following questions by analyzing
+subsets of the data.
+
+(a) What is the average number of warts for patients who had a good 
+Result_Of_Treatment?
+
+```{r}
+
+healthy <- Immunotherapy[Immunotherapy$Result_of_Treatment == "good",]
+mean(healthy$Number_of_Warts)
+
+
+
+```
+
+(b) Of patients younger than 30 (age < 30) with Both types of warts,
+what fraction (or percentage) had a good Result_Of_Treatment?
+
+```{r}
+#using the healthy I make a another set including "Both"
+
+```
+
+(c) Of patients 30 or older (age >= 30) with Both types of warts, what fraction
+(or percentage) had a good Result_Of_Treatment?
+
+```{r}
+mean(healthy$age >= 30)
+
+```
+
+
+## Q4 (5 points)
+
+Change the value of 'x', so that the result of running the code
+is "Success!".
+
+```{r}
+
+# Change this:
+x <- 0
+
+# Don't change this:
+if (x >= 50) {
+  print("Sorry...")
+} else {
+  print("Success!")
+}
+
+```
