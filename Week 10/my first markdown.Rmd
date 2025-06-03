@@ -1,0 +1,78 @@
+---
+title: "My first markdown"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+# include = FLASE: run the code, don't show results
+# good for setup, like loading libraries
+
+library (ggplot2)
+
+
+# This sets echo = TRUE for every chunk
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+# Header ( more #, smaller header)
+# Introduction
+## R Markdown
+
+In every code chunk, you need to start with 'r'.
+
+# Methods
+
+Describe the methods
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+# Names for chunks are optional
+
+heart = read.csv("Data/heart.csv")
+ dim(heart)
+
+```
+There are `r nrow(heart)`. patients in the data set
+
+## Running analyses
+
+we testd if people with heart disease have a different maximum HR induced by exercise vs. peopel without heart dise
+
+
+```{r}
+
+tt_result = t.test(max_hr ~ disease, data = heart)
+
+tt_result
+
+
+```
+
+The t test resulted in a p-value of `r tt_result$p.value` . There is a strong difference between the two groups.
+
+## Visuals
+
+```{r}
+# Let's make a boxplot
+
+heart$disease = facto
+
+```
+
+### ggplot 2 notes
+
+**Example** Does max_hr also vary with sex?
+
+```{r}
+ggplot(data = heart, aes(x= disease, y = max_hr, fill = sex)) +geom_boxplot()
+load(“NSDUH_2019.rData")
+
+```
+
+
+
+

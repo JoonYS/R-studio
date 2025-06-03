@@ -1,0 +1,111 @@
+---
+title: "Homework 7"
+author: "Junyeong_Shin"
+date: "10/5/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# R Library Preview
+Please run the following code to install a few more R libraries for Weeks 10 & 11.
+
+```{r}
+
+# Week 10 libraries
+install.packages("BiocManager") # Lets you install bioinformatics packages
+BiocManager::install("GEOquery") # Lets you download genomics data from the "Gene Expression Omnibus"
+
+BiocManager::install("limma") # Lets you run differential gene expression analysis
+
+# Week 11 libraries
+install.packages("pheatmap") # Draw pretty heatmaps
+install.packages("rpart") # Recursive partitioning analysis
+install.packages("neuralnet") # Neural network analysis
+
+
+```
+
+
+# Problem Set
+## Q1 (5 points)
+
+Load in `titanic_data.csv`, which provides details about passengers aboard the
+Titanic. Calculate the average age of the passengers in the three classes ("Pclass").
+*Then,* use an ANOVA test to estimate whether the three passenger classes
+("Pclass") contained similar or differently aged ("Age") passengers. 
+
+```{r}
+mean(titanic_data$Pclass == 1 & titanic_data$Age, na.rm = TRUE)
+mean(titanic_data$Pclass == 2 & titanic_data$Age, na.rm = TRUE)
+mean(titanic_data$Pclass == 3 & titanic_data$Age, na.rm = TRUE)
+
+resANOVA <- aov(Pclass ~ Age, data = titanic_data)
+summary(resANOVA)
+# There were differently aged passengers
+
+```
+
+## Q2 (5 points)
+
+Make a `table` showing the survival ("Survived") for each class. Which class 
+had the highest percentage of survivors? *Then,* use a categorical test to 
+estimate whether there were different survival rates
+("Survived") among the three classes.
+
+
+```{r}
+table(titanic_data$Survived, titanic_data$Pclass)
+# Class 1 had the highest percentage of survivors
+
+chisq.test(titanic_data$Survived, titanic_data$Pclass)
+#There were different survival rates
+
+```
+
+## Q3 (5 points)
+
+Load in `heart.csv`.  Build a correlation matrix to identify correlations between
+numeric variables (variables with 0/1 values are considered categorical). Which
+variables are positively or negatively correlated with each other, with correlation
+values above 0.3 (or below -0.3)?  
+
+```{r}
+
+cor(heart[,c(-2,-3,-7,-13)])
+
+
+# maxhr, oldpeak, and slope one with negative correlation with values below -0.3
+
+```
+
+## Q4 (10 points)
+
+### Part 1 (7 points)
+Use logistic regression to see if we can make a model to predict heart disease
+("disease") from all other variables.  
+Which characteristics are significantly (p < 0.05) associated with higher
+heart disease in the model?  Please be specific -- for example, do not just say
+age is a significant variable (if it is). Instead, say that older or younger participants
+are more likely to have heart disease.
+
+```{r}
+head(heart)
+logiheart =  glm(disease ~ ., data = heart)
+summary(logiheart)
+
+# Males, people with chestpain, High Heart rate have a more likely chance to have heart disease.
+```
+
+### Part 2 (3 points)
+
+Then, make one relevant visualization to support your answer from the first part 
+of the question. 
+
+```{r}
+boxplot(disease ~ sex, data = heart)
+
+```
